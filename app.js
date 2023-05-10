@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
-app.get("/home",function (req, res) {
+app.get("/",function (req, res) {
     console.log("entraron a la ruta home")
 
     const rutaAlArchivo = path.join(__dirname, './views/home.html')
