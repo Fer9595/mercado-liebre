@@ -15,7 +15,7 @@ app.get("/home",function (req, res) {
 
     res.sendFile(rutaAlArchivo);
 });
-app.listen(3080,() => console.log("esto fue exitoso"));
+
 
 app.get("/registro",function (req, res) {
     console.log("entraron a la ruta home")
